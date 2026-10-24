@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Media Pembelajaran Interaktif IPAS Kelas VI tentang Sistem Rangka Manusia untuk SD Negeri 6 Batuputih.">
+<meta name="theme-color" content="#17324d">
+<meta property="og:title" content="Jelajahi Sistem Rangka Manusia | MPI IPAS Kelas VI">
+<meta property="og:description" content="Belajar bagian dan fungsi rangka melalui materi interaktif, simulasi, dan kuis.">
+
+<title>Jelajahi Sistem Rangka Manusia | MPI IPAS Kelas VI</title>
+<style>
+:root{--navy:#17324d;--blue:#2364aa;--teal:#159a91;--gold:#f2b544;--cream:#fffaf0;--ink:#203040;--muted:#607286;--white:#fff;--green:#23845b;--red:#bd4545;--line:#dce5ed;--shadow:0 10px 28px #15334d18}
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(135deg,#eaf5ff,#fff8e9);font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);line-height:1.5}
+button{font:inherit;cursor:pointer;border:0;border-radius:12px;padding:11px 16px;font-weight:750;transition:.15s}button:focus-visible,[tabindex]:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.primary{background:var(--blue);color:white}.secondary{background:#e8f2fb;color:var(--navy)}.accent{background:var(--gold);color:#392b09}.danger{background:#fae8e8;color:#8b2222}.small{padding:7px 10px;font-size:.9rem}.hidden{display:none!important}
+header{background:var(--navy);color:white;padding:12px clamp(14px,4vw,40px);display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.brand{display:flex;gap:12px;align-items:center}.logo{width:45px;height:45px;background:#fff;color:var(--navy);border-radius:14px;display:grid;place-items:center;font-size:1.55rem}.brand strong{display:block}.brand small{color:#d5e5f4}
+main{max-width:1100px;margin:24px auto;padding:0 16px 32px}.panel{background:white;border:1px solid var(--line);border-radius:22px;padding:clamp(18px,3vw,32px);box-shadow:var(--shadow);margin-bottom:18px}
+.hero{background:linear-gradient(130deg,#17324d,#2364aa 65%,#159a91);color:white;overflow:hidden;position:relative;min-height:300px;display:grid;grid-template-columns:1.2fr .8fr;gap:20px;align-items:center}
+.hero h1{font-size:clamp(2rem,4vw,3.3rem);line-height:1.1;margin:12px 0}.hero p{max-width:570px;color:#e5f1fa}.hero .eyebrow{letter-spacing:.12em;text-transform:uppercase;font-size:.8rem;font-weight:800;color:#ffda83}
+.hero-art{display:grid;place-items:center;min-height:220px}.hero-art svg{width:min(100%,280px);height:auto;filter:drop-shadow(0 12px 12px #061a2c55)}
+h2{color:var(--navy);margin-top:0}h3{margin:.2rem 0 .5rem;color:var(--navy)}p{margin:.4rem 0 1rem}.muted{color:var(--muted)}.tag{display:inline-block;background:#e8f6f4;color:#116b65;border-radius:999px;padding:5px 10px;font-size:.82rem;font-weight:800}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.menu-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.tile{background:#f8fbff;border:1px solid var(--line);border-radius:17px;padding:18px;text-align:left;min-height:140px;color:var(--ink)}.tile:hover{transform:translateY(-2px);box-shadow:var(--shadow)}.tile .emoji{font-size:2rem;display:block;margin-bottom:8px}.tile strong{display:block;color:var(--navy);font-size:1.05rem}.tile small{display:block;color:var(--muted);margin-top:4px}
+.screen-title{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap}.screen-title p{color:var(--muted);margin-top:-6px}
+.lesson-layout{display:grid;grid-template-columns:minmax(260px,.9fr) 1.1fr;gap:20px;align-items:start}.skeleton-card{background:#eef7fb;border-radius:18px;padding:12px;min-height:370px;display:grid;place-items:center}.skeleton-card svg{max-height:470px;width:100%}
+.hotspot{cursor:pointer;transition:opacity .15s}.hotspot:hover{opacity:.75}.hotspot:focus{outline:3px solid var(--gold)}.part-list{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 14px}.part-chip{background:#eaf2f9;color:#23435e;border:1px solid #d4e3ef;padding:8px 11px;border-radius:999px}.part-chip.active{background:var(--blue);color:white}
+.info-card{border-left:5px solid var(--teal);background:#f2fbfa;padding:17px;border-radius:12px}.info-card ul{padding-left:20px}.callout{background:#fff6dd;border:1px solid #f4dfa3;padding:14px;border-radius:13px;margin-top:14px}
+.activity{border:1px solid var(--line);padding:16px;border-radius:16px;background:#fbfdff}.match-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid var(--line)}.match-row:last-child{border:0}.scenario{font-weight:650}.match-row select,.answer-select{width:100%;padding:11px;border-radius:10px;border:1px solid #bccbd8;background:white;font:inherit;color:var(--ink)}
+.feedback{padding:12px;border-radius:12px;margin-top:12px;font-weight:650}.good{background:#e4f7eb;color:#17613c}.bad{background:#fff0e8;color:#8a3a19}.neutral{background:#eaf2fb;color:#23435e}
+.question{font-size:1.15rem;font-weight:800;margin:10px 0 16px}.option{display:flex;gap:10px;align-items:flex-start;padding:12px;border:1px solid var(--line);border-radius:12px;margin:8px 0;cursor:pointer}.option:hover{background:#f5faff}.option input{margin-top:5px;accent-color:var(--blue)}
+.progress{height:9px;background:#e8eef4;border-radius:999px;overflow:hidden;margin:12px 0}.progress span{height:100%;display:block;background:var(--teal);width:0;transition:width .2s}
+.score{font-size:3rem;color:var(--blue);font-weight:900;line-height:1}.profile{display:flex;gap:16px;align-items:center}.avatar{width:72px;height:72px;border-radius:20px;background:#e8f6f4;display:grid;place-items:center;font-size:2.5rem}
+footer{text-align:center;color:#61758a;font-size:.88rem;padding:0 16px 24px}.top-tools{display:flex;gap:8px;align-items:center}.notice{font-size:.9rem;color:#e3eff8}
+@media(max-width:760px){.hero{grid-template-columns:1fr}.hero-art{min-height:170px}.hero-art svg{width:190px}.menu-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.lesson-layout{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.skeleton-card{min-height:290px}.match-row{grid-template-columns:1fr}.brand small{display:block}}
+@media print{header,.actions,footer,.top-tools{display:none!important}body{background:white}.panel{box-shadow:none;break-inside:avoid}}
+</style>
+</head>
+<body>
+<header>
+ <div class="brand"><div class="logo" aria-hidden="true">🦴</div><div><strong>MPI IPAS • Kelas VI</strong><small>SD Negeri 6 Batuputih · Fase C</small></div></div>
+ <div class="top-tools"><span class="notice" id="saveStatus">Progres tersimpan di perangkat ini</span><button class="secondary small" id="homeBtn" onclick="showScreen('home')">⌂ Menu</button></div>
+</header>
+<main>
+<section id="splash" class="panel hero">
+ <div><div class="eyebrow">Media Pembelajaran Interaktif</div><h1>Jelajahi<br>Sistem Rangka Manusia</h1><p>Kenali bagian rangka, pahami fungsinya, dan hubungkan dengan kegiatan sehari-hari melalui materi, simulasi, dan kuis.</p><div class="actions"><button class="accent" onclick="showScreen('home')">Mulai Belajar →</button><button class="secondary" onclick="showScreen('profile')">Profil Pengembang</button></div><p class="notice">Dapat digunakan tanpa internet setelah file ini dibuka.</p></div>
+ <div class="hero-art" aria-label="Ilustrasi rangka manusia"><svg viewBox="0 0 240 360" role="img" aria-label="Ilustrasi rangka manusia"><g stroke="#e9f5ff" stroke-width="8" stroke-linecap="round" fill="none"><circle cx="120" cy="42" r="28" fill="#f7fbff" stroke="#d2e7f7" stroke-width="4"/><path d="M102 65 Q120 76 138 65 M120 72 V168 M91 91 Q120 108 149 91 M90 105 L80 151 L70 208 M150 105 L160 151 L170 208 M94 111 L105 151 L105 173 M146 111 L135 151 L135 173 M98 174 Q120 190 142 174 M104 182 L98 229 L91 285 M136 182 L142 229 L149 285"/><path d="M98 91 Q78 112 97 132 Q120 150 143 132 Q162 112 142 91 M98 107 Q120 120 142 107 M100 120 Q120 133 140 120 M103 134 Q120 145 137 134" stroke-width="5"/><path d="M105 181 Q120 191 135 181 M105 195 Q120 205 135 195 M105 209 Q120 219 135 209 M105 223 Q120 233 135 223" stroke-width="5"/><path d="M91 285 L80 324 M149 285 L160 324 M80 324 L65 330 M160 324 L175 330" stroke-width="10"/></g><circle cx="110" cy="39" r="3" fill="#2364aa"/><circle cx="130" cy="39" r="3" fill="#2364aa"/></svg></div>
+</section>
+<section id="home" class="panel hidden">
+ <div class="screen-title"><div><span class="tag">Ayo belajar aktif</span><h2>Menu Utama</h2><p>Pilih kegiatan belajar yang ingin kamu lakukan.</p></div><button class="secondary small" onclick="showScreen('splash')">← Beranda awal</button></div>
+ <div class="menu-grid">
+  <button class="tile" onclick="showScreen('material')"><span class="emoji">📚</span><strong>Materi</strong><small>Kenali bagian dan fungsi rangka.</small></button>
+  <button class="tile" onclick="showScreen('simulation')"><span class="emoji">🧩</span><strong>Simulasi</strong><small>Cocokkan rangka dengan kegiatan sehari-hari.</small></button>
+  <button class="tile" onclick="startQuiz()"><span class="emoji">🎯</span><strong>Kuis</strong><small>Uji pemahamanmu dengan 3 soal.</small></button>
+  <button class="tile" onclick="showScreen('profile')"><span class="emoji">🏫</span><strong>Profil</strong><small>Identitas sekolah dan penyusun.</small></button>
+ </div>
+ <div class="grid" style="margin-top:18px"><div class="info-card"><h3>Tujuan Pembelajaran</h3><p>Setelah belajar, peserta didik dapat mengidentifikasi bagian utama rangka manusia, menjelaskan fungsinya, serta menghubungkannya dengan aktivitas sehari-hari.</p></div><div class="info-card"><h3>Petunjuk Belajar</h3><ul><li>Baca materi dan pilih bagian rangka.</li><li>Selesaikan semua pasangan simulasi.</li><li>Kerjakan kuis dan baca umpan balik.</li></ul></div></div>
+ <p class="muted" id="progressSummary">Progres belajar: belum ada aktivitas selesai.</p>
+</section>
+<section id="material" class="panel hidden">
+ <div class="screen-title"><div><h2>Materi: Sistem Rangka Manusia</h2><p>Klik bagian rangka pada ilustrasi atau pilih tombol nama bagian.</p></div><span class="tag">Eksplorasi</span></div>
+ <div class="lesson-layout"><div class="skeleton-card">
+ <!-- Simple original SVG schematic; each group is keyboard accessible -->
+ <svg viewBox="0 0 260 430" role="img" aria-label="Diagram skematis rangka manusia dengan bagian yang dapat dipilih">
+ <g fill="none" stroke="#d7e3ec" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M130 83 V215 M102 120 Q130 143 158 120 M104 137 Q130 157 156 137 M106 154 Q130 174 154 154 M108 171 Q130 191 152 171 M110 188 Q130 207 150 188"/>
+ <path d="M108 105 Q82 119 105 160 M152 105 Q178 119 155 160"/>
+ <path d="M106 116 L78 160 L63 217 M154 116 L182 160 L197 217 M78 160 L63 217 M182 160 L197 217"/>
+ <path d="M105 216 Q130 234 155 216 M109 225 L102 293 L92 366 M151 225 L158 293 L168 366 M92 366 L77 382 M168 366 L183 382"/>
+ </g>
+ <g class="hotspot" tabindex="0" role="button" aria-label="Tengkorak" onclick="selectPart('skull')" onkeydown="hotKey(event,'skull')"><ellipse cx="130" cy="55" rx="27" ry="31" fill="#f7d36d" stroke="#b8861d" stroke-width="3"/><path d="M116 71 L116 80 L144 80 L144 71" fill="#f7d36d" stroke="#b8861d" stroke-width="3"/><circle cx="121" cy="54" r="4" fill="#8d6414"/><circle cx="139" cy="54" r="4" fill="#8d6414"/></g>
+ <g class="hotspot" tabindex="0" role="button" aria-label="Tulang belakang" onclick="selectPart('spine')" onkeydown="hotKey(event,'spine')"><path d="M130 87 V216" stroke="#e59b44" stroke-width="12" stroke-linecap="round"/><g fill="#ffe0a6" stroke="#ad6d23" stroke-width="1.5"><rect x="124" y="91" width="12" height="9" rx="3"/><rect x="124" y="105" width="12" height="9" rx="3"/><rect x="124" y="119" width="12" height="9" rx="3"/><rect x="124" y="133" width="12" height="9" rx="3"/><rect x="124" y="147" width="12" height="9" rx="3"/><rect x="124" y="161" width="12" height="9" rx="3"/><rect x="124" y="175" width="12" height="9" rx="3"/><rect x="124" y="189" width="12" height="9" rx="3"/><rect x="124" y="203" width="12" height="9" rx="3"/></g></g>
+ <g class="hotspot" tabindex="0" role="button" aria-label="Tulang rusuk" onclick="selectPart('ribs')" onkeydown="hotKey(event,'ribs')"><path d="M130 106 Q91 94 101 124 Q111 139 130 132 Q149 139 159 124 Q169 94 130 106 M130 124 Q93 119 105 148 Q116 160 130 151 Q144 160 155 148 Q167 119 130 124 M130 145 Q98 145 111 169 Q121 177 130 169 Q139 177 149 169 Q162 145 130 145 M130 166 Q106 166 117 188 Q124 194 130 188 Q136 194 143 188 Q154 166 130 166" fill="#9edfd6" stroke="#2c8f83" stroke-width="3"/></g>
+ <g class="hotspot" tabindex="0" role="button" aria-label="Gelang bahu" onclick="selectPart('shoulder')" onkeydown="hotKey(event,'shoulder')"><path d="M102 106 L83 111 L76 125 M158 106 L177 111 L184 125" fill="none" stroke="#8c79d9" stroke-width="9" stroke-linecap="round"/></g>
+ <g class="hotspot" tabindex="0" role="button" aria-label="Gelang panggul" onclick="selectPart('pelvis')" onkeydown="hotKey(event,'pelvis')"><path d="M108 207 Q91 215 103 235 Q116 246 130 231 Q144 246 157 235 Q169 215 152 207 Q143 220 130 216 Q117 220 108 207Z" fill="#f3a7bd" stroke="#b54b70" stroke-width="3"/></g>
+ <g class="hotspot" tabindex="0" role="button" aria-label="Anggota gerak" onclick="selectPart('limbs')" onkeydown="hotKey(event,'limbs')"><path d="M78 160 L63 217 M182 160 L197 217 M105 238 L102 293 L92 366 M155 238 L158 293 L168 366" stroke="#78a7ed" stroke-width="10" stroke-linecap="round"/></g>
+ <g fill="#b9c8d5"><circle cx="63" cy="217" r="6"/><circle cx="197" cy="217" r="6"/><circle cx="92" cy="366" r="6"/><circle cx="168" cy="366" r="6"/></g>
+ </svg></div>
+ <div><div class="part-list" id="partButtons">
+ <button class="part-chip active" onclick="selectPart('skull')">Tengkorak</button><button class="part-chip" onclick="selectPart('spine')">Tulang belakang</button><button class="part-chip" onclick="selectPart('ribs')">Tulang rusuk</button><button class="part-chip" onclick="selectPart('shoulder')">Gelang bahu</button><button class="part-chip" onclick="selectPart('pelvis')">Gelang panggul</button><button class="part-chip" onclick="selectPart('limbs')">Anggota gerak</button></div>
+ <div class="info-card" aria-live="polite"><span class="tag" id="partGroup">Kepala</span><h3 id="partTitle">Tengkorak</h3><p id="partDesc">Tengkorak membentuk dan melindungi kepala, termasuk otak.</p><h3>Fungsi utama</h3><ul id="partFunctions"><li>Melindungi otak.</li><li>Membentuk struktur kepala dan wajah.</li></ul><p><strong>Hubungan dengan kehidupan:</strong> <span id="partLife">Helm membantu mengurangi risiko cedera kepala saat bersepeda.</span></p></div>
+ <div class="callout"><strong>Pikir kritis:</strong><p id="criticalQuestion">Mengapa kita tetap perlu memakai helm meskipun memiliki tulang tengkorak?</p><button class="secondary small" onclick="toggleAnswer()">Lihat contoh jawaban</button><p id="criticalAnswer" class="hidden">Tengkorak melindungi otak, tetapi benturan kuat tetap dapat menyebabkan cedera. Helm membantu mengurangi risiko cedera kepala.</p></div></div></div>
+ <div class="actions"><button class="secondary" onclick="showScreen('home')">← Menu Utama</button><button class="primary" onclick="showScreen('simulation')">Lanjut ke Simulasi →</button></div>
+</section>
+<section id="simulation" class="panel hidden">
+ <div class="screen-title"><div><h2>Simulasi: Rangka dalam Kehidupan</h2><p>Pilih bagian rangka yang paling sesuai dengan fungsi atau aktivitas pada setiap baris.</p></div><span class="tag">6 pasangan</span></div>
+ <div class="callout"><strong>Tantangan:</strong> Gunakan petunjuk pada tiap situasi. Beberapa aktivitas melibatkan banyak bagian tubuh, jadi pilih bagian yang fungsi utamanya paling ditekankan dalam soal.</div>
+ <div id="matchList"></div>
+ <div class="actions"><button class="primary" onclick="checkMatches()">Periksa Jawaban</button><button class="secondary" onclick="resetMatches()">Ulangi Simulasi</button><button class="secondary" onclick="showScreen('home')">Menu Utama</button></div>
+ <div id="matchFeedback" aria-live="polite"></div>
+ <div class="callout"><strong>Refleksi berpikir kritis:</strong><p>Seorang anak jatuh saat berlari. Mengapa rangka penting untuk menopang dan membantu tubuh bergerak, tetapi kita tetap perlu berhati-hati saat beraktivitas?</p><button class="secondary small" onclick="document.getElementById('reflectionAnswer').classList.toggle('hidden')">Lihat contoh jawaban</button><p id="reflectionAnswer" class="hidden">Rangka menopang tubuh dan bekerja bersama otot serta sendi untuk menghasilkan gerak. Namun, benturan atau gerakan yang salah dapat mencederai tulang, sehingga kita perlu berhati-hati dan memakai pelindung bila diperlukan.</p></div>
+</section>
+<section id="quiz" class="panel hidden">
+ <div class="screen-title"><div><h2>Kuis Interaktif</h2><p>Jawab tiga soal. Pilih satu jawaban terbaik untuk setiap pertanyaan.</p></div><span class="tag" id="quizCounter">Soal 1 dari 3</span></div>
+ <div class="progress"><span id="quizProgress"></span></div>
+ <div id="quizContent"></div>
+ <div class="actions" id="quizActions"><button class="primary" onclick="submitAnswer()">Periksa & Lanjut</button><button class="secondary" onclick="showScreen('home')">Keluar ke Menu</button></div>
+ <div id="quizFeedback" aria-live="polite"></div>
+</section>
+<section id="results" class="panel hidden">
+ <span class="tag">Hasil Belajar</span><h2>Kuis Selesai!</h2><p class="score" id="scoreText">0</p><p id="scoreMessage"></p><p id="scoreDetail" class="muted"></p><div class="actions"><button class="primary" onclick="startQuiz()">Coba Kuis Lagi</button><button class="secondary" onclick="showScreen('material')">Pelajari Materi Lagi</button><button class="secondary" onclick="showScreen('home')">Menu Utama</button></div>
+</section>
+<section id="profile" class="panel hidden">
+ <div class="screen-title"><div><h2>Profil</h2><p>Identitas satuan pendidikan dan penyusun media.</p></div><span class="tag">Kurikulum Merdeka</span></div>
+ <div class="profile"><div class="avatar">🏫</div><div><h3>SD Negeri 6 Batuputih</h3><p class="muted">Media Pembelajaran Interaktif (MPI) IPAS</p></div></div><hr style="border:0;border-top:1px solid var(--line);margin:20px 0">
+ <div class="grid"><div class="activity"><h3>Informasi Pembelajaran</h3><p><strong>Mata Pelajaran:</strong> IPAS</p><p><strong>Kelas/Fase:</strong> VI / C</p><p><strong>Materi:</strong> Sistem Rangka Manusia</p><p><strong>Kurikulum:</strong> Merdeka</p></div><div class="activity"><h3>Tim Sekolah</h3><p><strong>Guru:</strong> Nirwana. B, S.Pd.</p><p><strong>Kepala Sekolah:</strong> Andi Lisanawati, S.Pd.</p><p><strong>Pengembang:</strong> Tim pembelajaran IPAS kelas VI</p></div></div>
+ <div class="callout"><strong>Catatan penggunaan:</strong><p>Media ini merupakan bahan ajar pendamping. Guru tetap memfasilitasi diskusi, memeriksa pemahaman, dan menyesuaikan kegiatan dengan kebutuhan peserta didik.</p></div><div class="actions"><button class="primary" onclick="showScreen('home')">Kembali ke Menu</button><button class="secondary" onclick="window.print()">Cetak Halaman</button></div>
+</section>
+</main>
+<footer>MPI IPAS Kelas VI · Sistem Rangka Manusia · SD Negeri 6 Batuputih<br>Belajar aktif, berpikir kritis, dan menjaga kesehatan tubuh.</footer>
+<script>
+const parts={
+ skull:{title:'Tengkorak',group:'Kepala',desc:'Tengkorak membentuk dan melindungi kepala, termasuk otak.',functions:['Melindungi otak.','Membentuk struktur kepala dan wajah.'],life:'Helm membantu mengurangi risiko cedera kepala saat bersepeda.',question:'Mengapa kita tetap perlu memakai helm meskipun memiliki tulang tengkorak?'},
+ spine:{title:'Tulang belakang',group:'Batang tubuh',desc:'Tulang belakang menopang tubuh, membantu menjaga postur, dan melindungi sumsum tulang belakang.',functions:['Menopang tubuh agar tegak.','Membantu tubuh membungkuk dan berputar.','Melindungi sumsum tulang belakang.'],life:'Duduk dengan postur baik membantu mengurangi beban berlebih pada punggung.',question:'Apa yang mungkin terjadi pada postur tubuh jika kita terbiasa duduk membungkuk?'},
+ ribs:{title:'Tulang rusuk',group:'Dada',desc:'Tulang rusuk membentuk rongga dada dan membantu melindungi organ penting di dalamnya.',functions:['Melindungi jantung dan paru-paru.','Bersama otot membantu proses pernapasan.'],life:'Saat bernapas, rongga dada bergerak bersama kerja otot pernapasan.',question:'Mengapa jantung dan paru-paru perlu dilindungi oleh tulang rusuk?'},
+ shoulder:{title:'Gelang bahu',group:'Penghubung anggota gerak atas',desc:'Gelang bahu menghubungkan anggota gerak atas dengan rangka badan dan memungkinkan gerakan bahu.',functions:['Menghubungkan lengan dengan rangka badan.','Mendukung berbagai gerakan lengan.'],life:'Saat meraih buku di rak, bahu membantu menggerakkan lengan.',question:'Mengapa gerak bahu penting ketika kita meraih benda di tempat tinggi?'},
+ pelvis:{title:'Gelang panggul',group:'Penghubung anggota gerak bawah',desc:'Gelang panggul menghubungkan anggota gerak bawah dengan rangka badan dan membantu menopang berat tubuh.',functions:['Menopang dan menyalurkan berat tubuh.','Melindungi sebagian organ di rongga panggul.','Menghubungkan tungkai dengan rangka badan.'],life:'Saat berdiri dan berjalan, panggul membantu menyalurkan beban tubuh ke tungkai.',question:'Bagaimana gelang panggul membantu tubuh ketika berdiri?'},
+ limbs:{title:'Anggota gerak',group:'Lengan dan tungkai',desc:'Tulang anggota gerak atas dan bawah bekerja bersama otot serta sendi untuk melakukan berbagai gerakan.',functions:['Lengan membantu meraih, membawa, dan menulis.','Tungkai membantu berdiri, berjalan, dan berlari.'],life:'Menulis menggunakan anggota gerak atas; berjalan menggunakan anggota gerak bawah.',question:'Mengapa tulang, sendi, dan otot perlu bekerja sama agar kita dapat berjalan?'}
+};
+function showScreen(id){document.querySelectorAll('main>section').forEach(s=>s.classList.add('hidden'));document.getElementById(id).classList.remove('hidden');document.getElementById('homeBtn').classList.toggle('hidden',id==='splash'||id==='home');if(id==='home')updateProgress();window.scrollTo({top:0,behavior:'smooth'});}
+function hotKey(e,id){if(e.key==='Enter'||e.key===' '){e.preventDefault();selectPart(id)}}
+function selectPart(id){let p=parts[id];document.getElementById('partGroup').textContent=p.group;document.getElementById('partTitle').textContent=p.title;document.getElementById('partDesc').textContent=p.desc;document.getElementById('partLife').textContent=p.life;document.getElementById('criticalQuestion').textContent=p.question;document.getElementById('criticalAnswer').classList.add('hidden');document.getElementById('partFunctions').innerHTML=p.functions.map(x=>'<li>'+x+'</li>').join('');document.querySelectorAll('.part-chip').forEach(b=>b.classList.toggle('active',b.textContent===p.title));}
+function toggleAnswer(){document.getElementById('criticalAnswer').classList.toggle('hidden')}
+const options=[['Tengkorak','Tulang belakang','Tulang rusuk','Gelang bahu','Gelang panggul','Anggota gerak']];
+const scenarios=[
+ {q:'Melindungi otak ketika kepala mengalami benturan.',a:'Tengkorak',why:'Tengkorak melindungi otak dari benturan.'},
+ {q:'Menopang tubuh dan membantu menjaga posisi tegak saat duduk.',a:'Tulang belakang',why:'Tulang belakang menopang tubuh dan membantu postur.'},
+ {q:'Melindungi jantung dan paru-paru di rongga dada.',a:'Tulang rusuk',why:'Tulang rusuk membentuk pelindung rongga dada.'},
+ {q:'Menghubungkan lengan ke rangka badan saat kita meraih buku di rak.',a:'Gelang bahu',why:'Gelang bahu menghubungkan lengan dengan rangka badan.'},
+ {q:'Menghubungkan tungkai dengan rangka badan dan menyalurkan beban tubuh.',a:'Gelang panggul',why:'Gelang panggul menghubungkan tungkai dan membantu menyalurkan beban.'},
+ {q:'Membantu gerakan berjalan, berlari, menulis, dan meraih benda.',a:'Anggota gerak',why:'Tulang anggota gerak mendukung aktivitas lengan dan tungkai.'}
+];
+function buildMatches(){let el=document.getElementById('matchList');el.innerHTML=scenarios.map((s,i)=>`<div class="activity match-row"><div><span class="tag">Situasi ${i+1}</span><div class="scenario">${s.q}</div></div><div><label for="match${i}" class="muted">Pilih bagian rangka</label><select id="match${i}"><option value="">-- Pilih jawaban --</option>${options[0].map(o=>`<option>${o}</option>`).join('')}</select><div id="mf${i}" class="muted"></div></div></div>`).join('');}
+function checkMatches(){let correct=0,answered=0;scenarios.forEach((s,i)=>{let v=document.getElementById('match'+i).value,fb=document.getElementById('mf'+i);if(v)answered++;if(v===s.a){correct++;fb.innerHTML='<span style="color:#23845b">✓ Tepat!</span> '+s.why}else if(!v){fb.innerHTML='<span style="color:#9a6414">Belum dijawab.</span>'}else{fb.innerHTML='<span style="color:#bd4545">Belum tepat.</span> Petunjuk: '+s.why}});let box=document.getElementById('matchFeedback');box.className='feedback '+(correct===6?'good':'neutral');box.textContent=`Hasil simulasi: ${correct} dari 6 benar. ${correct===6?'Hebat! Semua pasangan tepat.':`Kamu sudah menjawab ${answered} dari 6 situasi. Perbaiki jawaban yang belum tepat, lalu periksa kembali.`}`;if(correct===6){localStorage.setItem('mpi_simulation_done','yes');updateProgress()}}
+function resetMatches(){buildMatches();document.getElementById('matchFeedback').textContent='';}
+const questions=[
+ {q:'Bagian rangka yang terutama melindungi otak adalah …',opts:['Tulang rusuk','Tengkorak','Gelang panggul'],ans:1,exp:'Tengkorak membungkus dan melindungi otak.'},
+ {q:'Bagian rangka yang menopang tubuh dan membantu menjaga postur adalah …',opts:['Tulang belakang','Tulang jari','Tulang rusuk'],ans:0,exp:'Tulang belakang menopang tubuh dan membantu mempertahankan postur.'},
+ {q:'Ketika berjalan, bagian rangka yang paling langsung membantu gerak tungkai adalah …',opts:['Tengkorak','Tulang rusuk','Anggota gerak bawah'],ans:2,exp:'Anggota gerak bawah bekerja bersama otot dan sendi untuk berjalan.'}
+];
+let qi=0,answers=[],locked=false;
+function startQuiz(){qi=0;answers=[];locked=false;renderQuestion();showScreen('quiz');}
+function renderQuestion(){let q=questions[qi];document.getElementById('quizCounter').textContent=`Soal ${qi+1} dari ${questions.length}`;document.getElementById('quizProgress').style.width=(qi/questions.length*100)+'%';document.getElementById('quizFeedback').innerHTML='';document.getElementById('quizActions').classList.remove('hidden');document.getElementById('quizActions').querySelector('.primary').textContent=qi===questions.length-1?'Lihat Hasil':'Periksa & Lanjut';document.getElementById('quizContent').innerHTML=`<div class="question">${qi+1}. ${q.q}</div>${q.opts.map((o,i)=>`<label class="option"><input type="radio" name="answer" value="${i}"><span>${String.fromCharCode(65+i)}. ${o}</span></label>`).join('')}`;locked=false;}
+function submitAnswer(){if(locked)return;let sel=document.querySelector('input[name="answer"]:checked');if(!sel){document.getElementById('quizFeedback').className='feedback bad';document.getElementById('quizFeedback').textContent='Pilih satu jawaban terlebih dahulu.';return}let q=questions[qi],v=Number(sel.value);answers.push(v);locked=true;let fb=document.getElementById('quizFeedback');fb.className='feedback '+(v===q.ans?'good':'bad');fb.textContent=(v===q.ans?'Benar! ':'Belum tepat. ')+q.exp;document.querySelectorAll('input[name="answer"]').forEach(x=>x.disabled=true);let btn=document.getElementById('quizActions').querySelector('.primary');btn.textContent=qi===questions.length-1?'Lihat Hasil':'Soal Berikutnya';btn.onclick=nextQuestion;}
+function nextQuestion(){if(!locked)return;if(qi<questions.length-1){qi++;renderQuestion()}else{showResults()}}
+function showResults(){let score=Math.round(answers.filter((a,i)=>a===questions[i].ans).length/questions.length*100);localStorage.setItem('mpi_last_score',String(score));localStorage.setItem('mpi_quiz_done','yes');document.getElementById('scoreText').textContent=score;document.getElementById('scoreMessage').textContent=score===100?'Luar biasa! Semua jawabanmu benar.':score>=67?'Bagus! Sedikit lagi menuju hasil sempurna.':'Terus berlatih! Baca kembali materi, lalu coba lagi.';document.getElementById('scoreDetail').textContent=`Jawaban benar: ${answers.filter((a,i)=>a===questions[i].ans).length} dari ${questions.length}. Nilai disimpan secara lokal pada perangkat ini.`;document.getElementById('quizProgress').style.width='100%';document.getElementById('quizActions').querySelector('.primary').onclick=submitAnswer;showScreen('results');updateProgress()}
+function updateProgress(){let done=[];if(localStorage.getItem('mpi_simulation_done')==='yes')done.push('simulasi selesai');if(localStorage.getItem('mpi_quiz_done')==='yes')done.push('kuis selesai');document.getElementById('progressSummary').textContent=done.length?'Progres belajar: '+done.join(' • ')+'. Nilai kuis terakhir: '+(localStorage.getItem('mpi_last_score')||'—')+'.':'Progres belajar: selesaikan simulasi dan kuis untuk melihat progres.';}
+buildMatches();selectPart('skull');showScreen('splash');updateProgress();
+</script>
+</body>
+</html>
